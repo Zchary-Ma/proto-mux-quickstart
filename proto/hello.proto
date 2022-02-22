@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package schema;
+
+option  go_package = "github.com/zchary-ma/proto-mux-template/schema";
+
+message Hello {
+  string name = 1;
+}
